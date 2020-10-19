@@ -25,3 +25,9 @@
     font-family: helvetica_neue;
     src: url('fonts/HelveticaNeueLT45Light.ttf');
 }
+
+:root {
+    --main-red-color: #d35266;
+    --main-gray-color: #888888;
+    --main-black-color: #383838;
+}

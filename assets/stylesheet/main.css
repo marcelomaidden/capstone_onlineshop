@@ -25,3 +25,59 @@
     font-family: helvetica_neue;
     src: url('fonts/HelveticaNeueLT45Light.ttf');
 }
+
+:root {
+    --main-red-color: #d35266;
+    --main-gray-color: #888888;
+    --main-black-color: #383838;
+}
+
+header {
+    background-color: var(--main-black-color);
+    height: 50px;
+}
+
+header a {
+    color: var(--main-gray-color);
+    font-size: 70%;
+}
+
+header .home a {
+    color: var(--main-red-color);
+}
+
+header a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--main-gray-color);
+}
+
+header, 
+header .home span,
+header .collections span,
+.post-ad {
+    font-family: gotham;
+    font-size: 90%;
+}
+
+.post-ad {
+    border: none;
+}
+
+.bg-red {
+    background-color: var(--main-red-color);
+}
+
+.profile img {
+    width: 40px;   
+}
+
+.profile a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.profile a {
+    max-width: 150px;
+}
