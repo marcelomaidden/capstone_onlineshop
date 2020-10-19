@@ -30,6 +30,7 @@
     --main-red-color: #d35266;
     --main-gray-color: #888888;
     --main-black-color: #383838;
+    --main-light-gray-color: rgb(224, 227, 230);
 }
 
 body {
@@ -50,6 +51,10 @@ body {
 
 .bg-gray {
     background-color: var(--main-gray-color);
+}
+
+.bg-light-gray {
+    background-color: var(--main-light-gray-color);
 }
 
 .text-gray {
@@ -118,4 +123,50 @@ header .collections span,
 
 .hot-ads .carousel-item {
     width: 50%;    
+}
+
+
+@media (min-width: 768px)
+{
+    .products {
+        grid-template-columns: repeat(4, 1fr);
+    }    
+}
+
+@media (max-width: 767px) {
+    .products {
+        grid-template-columns: repeat(2, 48%);
+        grid-gap: 1px;
+    }
+}
+
+.d-grid {
+    display: grid;
+}
+
+.products {
+    grid-gap: 10px;
+}
+
+.prod-item,
+.department .info {
+    font-size: 80%;
+}
+
+.custom-select {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.form-control {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.custom-select,
+.form-control {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
