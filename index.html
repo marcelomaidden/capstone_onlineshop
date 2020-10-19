@@ -12,8 +12,11 @@
 <body>
     <header class = "d-flex">
         <nav class = "container d-flex align-items-center">
-            <div class = "text-white font-weight-bold logo">
-                <a href = '#' class = "text-white">ZATTIX</a>
+            <div class = "logo">
+                <a href = '#' class = "text-white font-weight-bold">
+                    <img src="assets/images/header-logo.png" alt="logo" />
+                    ZATTIX
+                </a>
             </div>
             <div class = "col home">
                 <a class="fa fa-home font-weight-bold text-no-decoration"><span class = "p-2">Home</span></a>
@@ -35,5 +38,79 @@
             </div>
         </nav>
     </header>
+    <div class = "header-md d-none d-md-flex flex-column bg-red text-md-center text-white .font-gotham justify-content-end">
+        <h1 class = "h1 font-weight-bold">
+            ZATTIX
+        </h1>
+        <h6 class = "h6">
+            Buying and Selling Couldn't be simpler than this
+        </h6>
+        <div class = "d-md-flex justify-content-center pt-4">
+            <form action="search.html" class = "d-flex">
+                <div class="departments pr-0 mr-0">
+                    <select class="custom-select" name = "department">
+                      <option selected>All departments...</option>
+                      <option value="1">Watches</option>
+                      <option value="2">Laptops</option>
+                      <option value="3">PC</option>
+                      <option value="3">Printers</option>
+                    </select>
+                </div>
+                <div class = "pr-0 mr-0 pl-0 ml-0 form-group row">
+                    <input type = "text" class = "form-control" name = "search_criteria" placeholder="What do you search for?" />
+                </div>
+                <div class = "pr-0 mr-0 pl-0 ml-0 form-group row">
+                    <input type = "text" name = "more-info" class = "form-control" placeholder="" />
+                </div>
+                <div class = "pr-0 mr-0 pl-0 ml-2 form-group row ">
+                    <button type="submit" class="px-3 rounded bg-black text-white font-weight-bold">Search</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    <main>
+        <section class="hot-ads d-flex flex-column container pt-5">
+            <h4 class="col-12 text-gray h6 font-weight-bold .helvetica">HOT ADS</h4>
+            <div class="d-flex flex-column flex-md-row">
+                <div class="carousel slide col-12 col-md-4" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active bg-gray">
+                        <img class="d-block w-100" src="assets/images/computers.jpg" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/images/computers.jpg" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/images/computers.jpg" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-8 d-flex flex-column info">
+                    <h1 class="text-red">HTC One M8</h1>
+                    <p class = "text-gray">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam quisquam eius eveniet excepturi nesciunt pariatur earum. Nesciunt quidem reprehenderit molestiae nobis? Quas ab nihil maxime. Magni debitis quisquam ipsa velit!
+                    </p>
+                    <p class = "text-gray"><span class = "font-weight-bold">By</span> Nokia</p>
+                    <div class="col-6 d-flex">
+                        <span class = "bg-red p-2 mr-0 font-weight-bold gotham rounded-left">$450</span>
+                        <div class = "col purchase p-0">
+                            <button type = "button" class = "p-2 bg-red rounded-right ml-0"><i class = "fa fa-shopping-cart font-weight-bold"></i><span class = "px-2 font-weight-bold gotham">Purchase</span></button>
+                        </div>
+                    </div>                    
+                </div>    
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -10,19 +10,19 @@
 }
 
 @font-face {
-    font-family: helvetica_neue;
+    font-family: 'helvetica neue';
     src: url('fonts/HelveticaNeueLT75Bold.ttf');
     font-weight: bold;
 }
 
 @font-face {
-    font-family: helvetica_neue;
+    font-family: 'helvetica neue';
     src: url('fonts/HelveticaNeueLT65Medium.ttf');
     font-weight: 400;
 }
 
 @font-face {
-    font-family: helvetica_neue;
+    font-family: 'helvetica neue';
     src: url('fonts/HelveticaNeueLT45Light.ttf');
 }
 
@@ -30,6 +30,30 @@
     --main-red-color: #d35266;
     --main-gray-color: #888888;
     --main-black-color: #383838;
+}
+
+body {
+    font-family: 'helvetica neue';
+}
+
+.helvetica {
+    font-family: 'helvetica neue';
+}
+
+.bg-red {
+    background-color: var(--main-red-color);
+}
+
+.bg-black {
+    background-color: var(--main-black-color);
+}
+
+.bg-gray {
+    background-color: var(--main-gray-color);
+}
+
+.text-gray {
+    color: var(--main-gray-color);
 }
 
 header {
@@ -60,14 +84,15 @@ header .collections span,
     font-size: 90%;
 }
 
+.font-gotham {
+    font-family: gotham;
+}
+
 .post-ad {
     border: none;
 }
 
-.bg-red {
-    background-color: var(--main-red-color);
-}
-
+.logo img ,
 .profile img {
     width: 40px;   
 }
@@ -80,4 +105,17 @@ header .collections span,
 
 .profile a {
     max-width: 150px;
+}
+
+.header-md {
+    height: 250px;
+    background-image: linear-gradient(to right, var(--main-red-color), rgba(235, 82, 82, 0.5) 60%, var(--main-red-color)), url('../images/logo.png');
+    background-color: var(--main-red-color);
+    background-position: 150px 0;
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+.hot-ads .carousel-item {
+    width: 50%;    
 }
