@@ -153,9 +153,25 @@ header .collections span,
     font-size: 80%;
 }
 
+.prod-item {
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr 3fr 1fr 1fr;
+}
+
 .products img {
-    height: 50%;
-    width: 80%;
+    height: auto;
+    width: 100%;
+}
+
+.more-details {
+    display: none;
+    background-color: black;
+    z-index: 1;
+    top: -160px;
+}
+
+.purchase-box:hover .more-details {
+    display: block;
 }
 
 .products span, 
