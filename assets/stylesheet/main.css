@@ -153,6 +153,16 @@ header .collections span,
     font-size: 80%;
 }
 
+.products img {
+    height: 50%;
+    width: 80%;
+}
+
+.products span, 
+.products button {
+    height: 35px;
+}
+
 .custom-select {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
