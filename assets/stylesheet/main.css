@@ -1,0 +1,27 @@
+@font-face {
+    font-family: gotham;
+    src: url(fonts/GothamBold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: gotham;
+    src: url(fonts/GothamLight.ttf);
+}
+
+@font-face {
+    font-family: helvetica_neue;
+    src: url('fonts/HelveticaNeueLT75Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: helvetica_neue;
+    src: url('fonts/HelveticaNeueLT65Medium.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: helvetica_neue;
+    src: url('fonts/HelveticaNeueLT45Light.ttf');
+}
