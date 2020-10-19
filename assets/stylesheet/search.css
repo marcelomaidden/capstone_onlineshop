@@ -10,19 +10,19 @@
 }
 
 @font-face {
-    font-family: helvetica_neue;
+    font-family: 'helvetica neue';
     src: url('fonts/HelveticaNeueLT75Bold.ttf');
     font-weight: bold;
 }
 
 @font-face {
-    font-family: helvetica_neue;
+    font-family: 'helvetica neue';
     src: url('fonts/HelveticaNeueLT65Medium.ttf');
     font-weight: 400;
 }
 
 @font-face {
-    font-family: helvetica_neue;
+    font-family: 'helvetica neue';
     src: url('fonts/HelveticaNeueLT45Light.ttf');
 }
 
@@ -30,4 +30,89 @@
     --main-red-color: #d35266;
     --main-gray-color: #888888;
     --main-black-color: #383838;
+    --main-light-gray-color: rgb(224, 227, 230);
+}
+
+body {
+    font-family: 'helvetica neue';
+}
+
+.helvetica {
+    font-family: 'helvetica neue';
+}
+
+.bg-red {
+    background-color: var(--main-red-color);
+}
+
+.bg-black {
+    background-color: var(--main-black-color);
+}
+
+.bg-gray {
+    background-color: var(--main-gray-color);
+}
+
+.bg-light-gray {
+    background-color: var(--main-light-gray-color);
+}
+
+.text-gray {
+    color: var(--main-gray-color);
+}
+
+header {
+    background-color: var(--main-black-color);
+    height: 50px;
+}
+
+header a {
+    color: var(--main-gray-color);
+    font-size: 70%;
+}
+
+header .home a {
+    color: var(--main-red-color);
+}
+
+header a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--main-gray-color);
+}
+
+header, 
+header .home span,
+header .collections span,
+.post-ad {
+    font-family: gotham;
+    font-size: 90%;
+}
+
+.font-gotham {
+    font-family: gotham;
+}
+
+.logo img ,
+.profile img {
+    width: 40px;   
+}
+
+.profile a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.profile a {
+    max-width: 150px;
+}
+
+.header-md {
+    height: 180px;
+    background-image: linear-gradient(to right, var(--main-red-color), rgba(235, 82, 82, 0.5) 60%, var(--main-red-color)), url('../images/logo.png');
+    background-color: var(--main-red-color);
+    background-position: 150px 0;
+    background-size: 250px;
+    background-repeat: no-repeat;
 }
