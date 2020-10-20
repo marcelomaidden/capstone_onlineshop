@@ -15,9 +15,8 @@
   .results {
     grid-template-columns: 1fr 2fr;
   }
+
   .results img {
     width: 70%;
   }
 }
-
-
