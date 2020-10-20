@@ -10,7 +10,7 @@
     <title>Online shop for electronics</title>
 </head>
 <body>
-    <header class = "d-flex">
+    <header class = "d-flex container-fluid">
         <nav class = "container d-flex align-items-center">
             <div class = "logo">
                 <a href = 'index.html' class = "text-white font-weight-bold">
@@ -18,27 +18,27 @@
                     ZATTIX
                 </a>
             </div>
-            <div class = "col home">
+            <div class = "col d-none d-md-flex home">
                 <a class="fa fa-home font-weight-bold text-no-decoration"><span class = "p-2">Home</span></a>
             </div>
-            <div class = "col collections">
+            <div class = "col  d-none d-md-flex collections">
                 <a href="#collections" class = "fa fa-list-alt font-weight-bold"><span class = "p-2">Collections</span></a>
             </div>
-            <div class = "col purchase">
+            <div class = "col d-none d-md-flex purchase">
                 <a href="#" class = "fa fa-shopping-cart font-weight-bold"><span class = "p-2">Purchase list</span></a>
             </div>
-            <div class="col d-none d-lg-block">
+            <div class="col d-none d-md-flex d-lg-block">
                 <button type="button" class = "bg-red text-white font-weight-bold rounded p-1">
                     <span class = "post-ad">POST AND AD</span>
                 </button>
             </div>
-            <div class="d-flex col profile align-items-center">
+            <div class="d-flex col profile align-items-center justify-content-end">
                 <a href="#" class = "font-weight-bold d-none d-lg-block">Luana Ribeiro de Souza Araujo</a>
                 <a href = "#"><img src="assets/images/profile.jpg" alt="Luana" class = "rounded-circle" /></a>
             </div>
         </nav>
     </header>
-    <div class = "header-md d-none d-md-flex flex-column bg-red text-md-center text-white gotham justify-content-end">
+    <div class = "header-md d-none d-md-flex container-fluid flex-column bg-red text-md-center text-white gotham justify-content-end">
         <h1 class = "h1 font-weight-bold">
             ZATTIX
         </h1>
@@ -70,7 +70,7 @@
             
         </div>
     </div>
-    <div class = "d-flex d-md-none bg-red pt-4">
+    <div class = "d-flex container-fluid d-md-none bg-red pt-4">
         <form action="search.html" class = "d-flex">
             <div class="departments pr-0 mr-0">
                 <select class="custom-select" name = "department">
@@ -93,7 +93,7 @@
             </div>
         </form>            
     </div>
-    <main>
+    <main class = "container-fluid">
         <section class="hot-ads d-flex flex-column container py-5">
             <h4 class="col-12 text-gray h6 font-weight-bold .helvetica">HOT ADS</h4>
             <div class="d-flex flex-column flex-md-row">

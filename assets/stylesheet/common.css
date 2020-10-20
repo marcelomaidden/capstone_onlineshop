@@ -49,10 +49,6 @@ body {
   background-color: var(--main-black-color);
 }
 
-.bg-gray {
-  background-color: var(--main-gray-color);
-}
-
 .bg-light-gray {
   background-color: var(--main-light-gray-color);
 }
@@ -113,7 +109,7 @@ header .collections span,
   height: 250px;
   background-image: linear-gradient(to right, var(--main-red-color), rgba(235, 82, 82, 0.5) 60%, var(--main-red-color)), url('https://www.allaboutdogfood.co.uk/images/header-bg.jpg');
   background-color: var(--main-red-color);
-  background-position: 150px 80px;
+  background-position: center 80px;
   background-size: 550px;
   background-repeat: no-repeat;
 }

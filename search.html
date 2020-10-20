@@ -10,7 +10,7 @@
     <title>Search results</title>
 </head>
 <body>
-    <header class = "d-flex">
+    <header class = "d-flex container-fluid">
         <nav class = "container d-flex align-items-center">
             <div class = "logo">
                 <a href = 'index.html' class = "text-white font-weight-bold">
@@ -18,13 +18,13 @@
                     ZATTIX
                 </a>
             </div>
-            <div class = "col home">
+            <div class = "col d-none d-md-flex home">
                 <a href = "index.html" class="fa fa-home font-weight-bold text-no-decoration"><span class = "p-2">Home</span></a>
             </div>
-            <div class = "col collections">
+            <div class = "col d-none d-md-flex collections">
                 <a href="index.html#collections" class = "fa fa-list-alt font-weight-bold"><span class = "p-2">Collections</span></a>
             </div>
-            <div class = "col purchase">
+            <div class = "col d-none d-md-flex purchase">
                 <a href="#" class = "fa fa-shopping-cart font-weight-bold"><span class = "p-2">Purchase list</span></a>
             </div>
             <div class="col d-none d-lg-block">
@@ -32,13 +32,13 @@
                     <span class = "post-ad">POST AND AD</span>
                 </button>
             </div>
-            <div class="d-flex col profile align-items-center">
+            <div class="d-flex col profile align-items-center justify-content-end">
                 <a href="#" class = "font-weight-bold d-none d-lg-block">Luana Ribeiro de Souza Araujo</a>
                 <a href = "#"><img src="assets/images/profile.jpg" alt="Luana" class = "rounded-circle" /></a>
             </div>
         </nav>
     </header>
-    <div class = "header-md d-none d-md-flex flex-column pl-5 bg-red text-white .font-gotham justify-content-end">
+    <div class = "header-md container-fluid d-none d-md-flex flex-column pl-5 bg-red text-white .gotham justify-content-end align-items-center">
         <h1 class = "h1 font-weight-bold">
             ZATTIX
         </h1>
@@ -69,7 +69,7 @@
             </form>            
         </div>
     </div>  
-    <div class = "d-flex d-md-none pt-4 bg-red">
+    <div class = "d-flex container-fluid d-md-none pt-4 bg-red">
         <form action="search.html" class = "d-flex">
             <div class="departments pr-0 mr-0">
                 <select class="custom-select" name = "department">
@@ -92,8 +92,8 @@
             </div>
         </form>            
     </div>
-    <main class = "main bg-light-gray d-flex flex-column flex-md-row">
-        <nav class = "d-flex flex-column p-3 justify-content-start col-12 col-md-4">
+    <main class = "main container-fluid bg-light-gray d-flex flex-column flex-md-row">
+        <nav class = "d-flex flex-column p-3 justify-content-start col-12 col-md-4 col-lg-3">
             <div class="d-flex align-items-center border-bottom ml-5">
                 <input type="radio" name = "average" value = "best-price" class = "px-3" checked />
                 <span class = "px-3">Best price</span> 
@@ -129,7 +129,7 @@
                 </ul>
             </div>
         </nav>
-        <section class="d-flex border border-white p-3 pb-1 col-12 flex-column col-md-8">
+        <section class="d-flex border border-white p-3 pb-1 col-12 flex-column col-md-8 col-lg-9">
             <h6 class = "border-bottom border-white">
                 138 results pet products.
             </h6>
