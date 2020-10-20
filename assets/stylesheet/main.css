@@ -54,3 +54,14 @@
 .products button {
   height: 35px;
 }
+
+.subnav {
+  right: 50px;
+  bottom: 0;
+}
+.subnav a {
+  font-size:36px; 
+  transform: rotate(90deg);
+  color: white;
+  background-color: black;
+}
