@@ -59,9 +59,3 @@
   right: 50px;
   bottom: 0;
 }
-.subnav a {
-  font-size:36px; 
-  transform: rotate(90deg);
-  color: white;
-  background-color: black;
-}
