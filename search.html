@@ -22,7 +22,7 @@
                 <a href = "index.html" class="fa fa-home font-weight-bold text-no-decoration"><span class = "p-2">Home</span></a>
             </div>
             <div class = "col collections">
-                <a href="#" class = "fa fa-list-alt font-weight-bold"><span class = "p-2">Collections</span></a>
+                <a href="index.html#collections" class = "fa fa-list-alt font-weight-bold"><span class = "p-2">Collections</span></a>
             </div>
             <div class = "col purchase">
                 <a href="#" class = "fa fa-shopping-cart font-weight-bold"><span class = "p-2">Purchase list</span></a>
@@ -69,6 +69,40 @@
             
         </div>
     </div>  
+    <main class = "main bg-light-gray d-flex flex-column flex-md-row">
+        <nav class = "d-flex flex-column p-3 justify-content-end col-12 col-md-4">
+            <div class="d-flex align-items-center border-bottom ml-5">
+                <input type="checkbox" class = "px-3" />
+                <span class = "px-3">Best price</span> 
+                <input type="checkbox" class = "px-3" /> 
+                <span class = "px-3">Most sold</span>
+            </div>
+            <div class="d-flex ml-5 flex-column pt-3">
+                <strong class = "border-bottom border-white pb-1">Type</strong>
+                <ul class="list-unstyled pt-3">
+                    <li><input type="checkbox" value = "computer"> Computers</li>
+                    <li><input type="checkbox" value = "laptop"> Laptops</li>
+                    <li><input type="checkbox" value = "watches"> Watches</li>
+                    <li><input type="checkbox" value = "printers"> Printers</li>
+                    <li><input type="checkbox" value = "smartphones"> Smartphones</li>
+                    <li><input type="checkbox" value = "accessories"> Accessories</li>
+                </ul>
+            </div>
+            <div class="d-flex ml-5 flex-column pt-3">
+                <strong class = "border-bottom border-white pb-1">Price range</strong>
+                <ul class="list-unstyled pt-3">
+                    <li><input type="radio" name = "price" value = "100" checked> $100 - $200</li>
+                    <li><input type="radio" name = "price" value = "201"> $201 - $300</li>
+                    <li><input type="radio" name = "price" value = "301"> $301 - $400</li>
+                    <li><input type="radio" name = "price" value = "401"> $401 - $500</li>
+                    <li><input type="radio" name = "price" value = "501"> $501 or more</li>
+                </ul>
+            </div>
+        </nav>
+        <div class="d-flex border border-white p-3 col-12 col-md-8">
+            138 results Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        </div>
+    </main>
     <footer class = "footer d-flex flex-column flex-md-row mx-3 p-5">
         <div class = "d-flex col-12 col-md-3 flex-column footer-logo">
             <div class = "d-flex logo p-3">
@@ -88,7 +122,6 @@
                 <li><a href = "#" class = "text-gray">Printers</a></li>
                 <li><a href = "#" class = "text-gray">Smartphones</a></li>
                 <li><a href = "#" class = "text-gray">Accessories</a></li>
-                <li><a href = "#" class = "text-gray">Earphones</a></li>
             </ul>
         </div>
         <div class="d-flex flex-column col-12 col-md-3 pt-2">
