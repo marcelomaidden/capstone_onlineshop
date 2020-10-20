@@ -69,6 +69,28 @@
             
         </div>
     </div>
+    <div class = "d-flex d-md-none bg-red pt-4">
+        <form action="search.html" class = "d-flex">
+            <div class="departments pr-0 mr-0">
+                <select class="custom-select" name = "department">
+                  <option selected>All departments...</option>
+                  <option value="1">Watches</option>
+                  <option value="2">Laptops</option>
+                  <option value="3">PC</option>
+                  <option value="3">Printers</option>
+                </select>
+            </div>
+            <div class = "pr-0 mr-0 pl-0 ml-0 form-group row">
+                <input type = "text" class = "form-control" name = "search_criteria" placeholder="What do you search for?" />
+            </div>
+            <div class = "pr-0 mr-0 pl-0 ml-0 form-group row">
+                <input type = "text" name = "more-info" class = "form-control" placeholder="" />
+            </div>
+            <div class = "pr-0 mr-0 pl-0 ml-2 form-group row ">
+                <button type="submit" class="px-3 rounded bg-black text-white font-weight-bold">Search</button>
+            </div>
+        </form>            
+    </div>
     <main>
         <section class="hot-ads d-flex flex-column container py-5">
             <h4 class="col-12 text-gray h6 font-weight-bold .helvetica">HOT ADS</h4>

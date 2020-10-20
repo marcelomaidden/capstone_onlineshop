@@ -65,10 +65,31 @@
                 <div class = "pr-0 mr-0 pl-0 ml-2 form-group row ">
                     <button type="submit" class="px-3 rounded bg-black text-white font-weight-bold">Search</button>
                 </div>
-            </form>
-            
+            </form>            
         </div>
     </div>  
+    <div class = "d-flex d-md-none pt-4 bg-red">
+        <form action="search.html" class = "d-flex">
+            <div class="departments pr-0 mr-0">
+                <select class="custom-select" name = "department">
+                  <option selected>All departments...</option>
+                  <option value="1">Watches</option>
+                  <option value="2">Laptops</option>
+                  <option value="3">PC</option>
+                  <option value="3">Printers</option>
+                </select>
+            </div>
+            <div class = "pr-0 mr-0 pl-0 ml-0 form-group row">
+                <input type = "text" class = "form-control" name = "search_criteria" placeholder="What do you search for?" />
+            </div>
+            <div class = "pr-0 mr-0 pl-0 ml-0 form-group row">
+                <input type = "text" name = "more-info" class = "form-control" placeholder="" />
+            </div>
+            <div class = "pr-0 mr-0 pl-0 ml-2 form-group row ">
+                <button type="submit" class="px-3 rounded bg-black text-white font-weight-bold">Search</button>
+            </div>
+        </form>            
+    </div>
     <main class = "main bg-light-gray d-flex flex-column flex-md-row">
         <nav class = "d-flex flex-column p-3 justify-content-end col-12 col-md-4">
             <div class="d-flex align-items-center border-bottom ml-5">
