@@ -1,160 +1,157 @@
 @font-face {
-    font-family: gotham;
-    src: url(fonts/GothamBold.ttf);
-    font-weight: bold;
+  font-family: gotham;
+  src: url(fonts/GothamBold.ttf);
+  font-weight: bold;
 }
 
 @font-face {
-    font-family: gotham;
-    src: url(fonts/GothamLight.ttf);
+  font-family: gotham;
+  src: url(fonts/GothamLight.ttf);
 }
 
 @font-face {
-    font-family: 'helvetica neue';
-    src: url('fonts/HelveticaNeueLT75Bold.ttf');
-    font-weight: bold;
+  font-family: 'helvetica neue';
+  src: url('fonts/HelveticaNeueLT75Bold.ttf');
+  font-weight: bold;
 }
 
 @font-face {
-    font-family: 'helvetica neue';
-    src: url('fonts/HelveticaNeueLT65Medium.ttf');
-    font-weight: 400;
+  font-family: 'helvetica neue';
+  src: url('fonts/HelveticaNeueLT65Medium.ttf');
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: 'helvetica neue';
-    src: url('fonts/HelveticaNeueLT45Light.ttf');
+  font-family: 'helvetica neue';
+  src: url('fonts/HelveticaNeueLT45Light.ttf');
 }
 
 :root {
-    --main-red-color: #d35266;
-    --main-gray-color: #888888;
-    --main-black-color: #383838;
-    --main-light-gray-color: rgb(224, 227, 230);
+  --main-red-color: #d35266;
+  --main-gray-color: #888;
+  --main-black-color: #383838;
+  --main-light-gray-color: rgb(224, 227, 230);
 }
 
 body {
-    font-family: 'helvetica neue';
+  font-family: 'helvetica neue', serif;
 }
 
 .helvetica {
-    font-family: 'helvetica neue';
+  font-family: 'helvetica neue', serif;
 }
 
 .bg-red {
-    background-color: var(--main-red-color);
+  background-color: var(--main-red-color);
 }
 
 .bg-black {
-    background-color: var(--main-black-color);
+  background-color: var(--main-black-color);
 }
 
 .bg-gray {
-    background-color: var(--main-gray-color);
+  background-color: var(--main-gray-color);
 }
 
 .bg-light-gray {
-    background-color: var(--main-light-gray-color);
+  background-color: var(--main-light-gray-color);
 }
 
 .text-red {
-    color: var(--main-red-color);
+  color: var(--main-red-color);
 }
 
 .text-gray {
-    color: var(--main-gray-color);
+  color: var(--main-gray-color);
 }
 
 header {
-    background-color: var(--main-black-color);
-    height: 50px;
+  background-color: var(--main-black-color);
+  height: 50px;
 }
 
 header a {
-    color: var(--main-gray-color);
-    font-size: 70%;
+  color: var(--main-gray-color);
+  font-size: 70%;
+}
+
+.profile a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 150px;
 }
 
 header .home a {
-    color: var(--main-red-color);
+  color: var(--main-red-color);
 }
 
 header a:hover {
-    text-decoration: none;
-    cursor: pointer;
-    color: var(--main-gray-color);
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--main-gray-color);
 }
 
-header, 
+header,
 header .home span,
 header .collections span,
 .post-ad {
-    font-family: gotham;
-    font-size: 90%;
+  font-family: gotham, serif;
+  font-size: 90%;
 }
 
 .gotham {
-    font-family: gotham;
+  font-family: gotham, serif;
 }
 
-.logo img ,
+.logo img,
 .profile img {
-    width: 40px;   
-}
-
-.profile a {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.profile a {
-    max-width: 150px;
+  width: 40px;
 }
 
 .header-md {
-    height: 250px;
-    background-image: linear-gradient(to right, var(--main-red-color), rgba(235, 82, 82, 0.5) 60%, var(--main-red-color)), url('../images/logo.png');
-    background-color: var(--main-red-color);
-    background-position: 150px 0;
-    background-size: 250px;
-    background-repeat: no-repeat;
+  height: 250px;
+  background-image: linear-gradient(to right, var(--main-red-color), rgba(235, 82, 82, 0.5) 60%, var(--main-red-color)), url('../images/logo.png');
+  background-color: var(--main-red-color);
+  background-position: 150px 0;
+  background-size: 250px;
+  background-repeat: no-repeat;
 }
 
 .hot-ads .carousel-item {
-    width: 50%;    
+  width: 50%;
 }
 
 .post-ad {
-    border: none;
+  border: none;
 }
 
 .d-grid {
-    display: grid;
+  display: grid;
 }
 
 .custom-select {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .form-control {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .custom-select,
 .form-control {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 footer .logo img {
-    filter: grayscale(1);
+  filter: grayscale(1);
 }
 
 .company-info {
-    font-size: 80%;
+  font-size: 80%;
 }

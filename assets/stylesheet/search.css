@@ -1,19 +1,18 @@
 .main {
-    grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 5fr;
 }
 
 .results {
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
 }
 
 @media (min-width: 768px) {
-    .results {
-        grid-template-columns: 1fr 2fr;
-    }    
+  .results {
+    grid-template-columns: 1fr 2fr;
+  }
 }
 
 .results img {
-    width: 70%;
+  width: 70%;
 }
-
