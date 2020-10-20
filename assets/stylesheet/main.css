@@ -11,6 +11,15 @@
   }
 }
 
+.hot-ads .carousel-item {
+  width: 50%;
+}
+
+.hot-ads img {
+  height: 160px;
+  width: 130px;
+}
+
 .products {
   grid-gap: 10px;
 }
@@ -26,8 +35,8 @@
 }
 
 .products img {
-  height: auto;
-  width: 100%;
+  height: 160px;
+  width: 130px;
 }
 
 .more-details {

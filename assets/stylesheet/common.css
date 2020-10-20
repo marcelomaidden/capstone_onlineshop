@@ -111,15 +111,11 @@ header .collections span,
 
 .header-md {
   height: 250px;
-  background-image: linear-gradient(to right, var(--main-red-color), rgba(235, 82, 82, 0.5) 60%, var(--main-red-color)), url('../images/logo.png');
+  background-image: linear-gradient(to right, var(--main-red-color), rgba(235, 82, 82, 0.5) 60%, var(--main-red-color)), url('https://www.allaboutdogfood.co.uk/images/header-bg.jpg');
   background-color: var(--main-red-color);
-  background-position: 150px 0;
-  background-size: 250px;
+  background-position: 150px 80px;
+  background-size: 550px;
   background-repeat: no-repeat;
-}
-
-.hot-ads .carousel-item {
-  width: 50%;
 }
 
 .post-ad {
