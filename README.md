@@ -3,7 +3,7 @@
 # A responsive web design made as a solo project to finish the HTML and CSS Microverse program
 # Based on Mohammed Awad's design
 
-[Video presentation] (https://www.loom.com/share/9fe0b6d2e8e445b1936e9b9a28f2c4f5)
+[Video presentation](https://www.loom.com/share/9fe0b6d2e8e445b1936e9b9a28f2c4f5)
 
 ![screenshot](./assets/images/screenshot.png)
 
