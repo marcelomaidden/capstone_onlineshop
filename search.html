@@ -91,12 +91,12 @@
         </form>            
     </div>
     <main class = "main bg-light-gray d-flex flex-column flex-md-row">
-        <nav class = "d-flex flex-column p-3 justify-content-end col-12 col-md-4">
+        <nav class = "d-flex flex-column p-3 justify-content-start col-12 col-md-4">
             <div class="d-flex align-items-center border-bottom ml-5">
-                <input type="checkbox" class = "px-3" />
+                <input type="radio" name = "average" value = "best-price" class = "px-3" />
                 <span class = "px-3">Best price</span> 
-                <input type="checkbox" class = "px-3" /> 
-                <span class = "px-3">Most sold</span>
+                <input type="radio" name = "average" value = "best-sellers" class = "px-3" /> 
+                <span class = "px-3">Best Sellers</span>
             </div>
             <div class="d-flex ml-5 flex-column pt-3">
                 <strong class = "border-bottom border-white pb-1">Type</strong>
@@ -120,9 +120,123 @@
                 </ul>
             </div>
         </nav>
-        <div class="d-flex border border-white p-3 col-12 col-md-8">
-            138 results Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-        </div>
+        <section class="d-flex border border-white p-3 pb-1 col-12 flex-column col-md-8">
+            <h6 class = "border-bottom border-white">
+                138 results Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            </h6>
+            <article class="d-grid results pt-3 border-bottom border-white pb-3">
+                <a href = "#"><img src="assets/images/apple.jpg" alt="Apple laptop" /></a>
+                <div class="d-flex flex-column">
+                    <h6 class="h6"><a href = "#" class = "text-gray">Apple Laptop - Macbook</a></h6>
+                    <span class = "text-red font-weight-bold">$400</span>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt a qui maiores fugit quas, distinctio rem dicta voluptatem obcaecati, harum sit repellat nam. Eius, pariatur. Fugit quos ea beatae similique?</p>
+                    <div class = "d-flex">
+                        <strong class = "pr-2">Supplier</strong>
+                        <span><a href = "#" class = "text-gray">Apple</a></span>
+                    </div>
+                    <div class = "d-flex pt-3 justify-content-between">
+                        <span class = "text-gray">23 Oct, 2020</span>
+                        <span>
+                            <button class = "bg-red text-white font-weight-bold rounded border-0">Give a call</button>
+                            <span class = "text-red font-weight-bold">$400</span>
+                        </span>
+                    </div>
+                </div>
+            </article>            
+            <article class="d-grid results pt-3 border-bottom border-white pb-3">
+                <a href = "#"><img src="assets/images/applewatch.jpg" alt="Apple watch" /></a>
+                <div class="d-flex flex-column">
+                    <h6 class="h6"><a href = "#" class = "text-gray">Apple Watch - 3G</a></h6>
+                    <span class = "text-red font-weight-bold">$100</span>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt a qui maiores fugit quas, distinctio rem dicta voluptatem obcaecati, harum sit repellat nam. Eius, pariatur. Fugit quos ea beatae similique?</p>
+                    <div class = "d-flex">
+                        <strong class = "pr-2">Supplier</strong>
+                        <span><a href = "#" class = "text-gray">Apple</a></span>
+                    </div>
+                    <div class = "d-flex pt-3 justify-content-between">
+                        <span class = "text-gray">23 Oct, 2020</span>
+                        <span>
+                            <button class = "bg-red text-white font-weight-bold rounded border-0">Give a call</button>
+                            <span class = "text-red font-weight-bold">$100</span>
+                        </span>
+                    </div>
+                </div>
+            </article>  
+            <article class="d-grid results pt-3 border-bottom border-white pb-3">
+                <a href = "#"><img src="assets/images/lenovo.jpg" alt="Lenovo laptop" /></a>
+                <div class="d-flex flex-column">
+                    <h6 class="h6"><a href = "#" class = "text-gray">Lenovo Laptop - T410</a></h6>
+                    <span class = "text-red font-weight-bold">$400</span>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt a qui maiores fugit quas, distinctio rem dicta voluptatem obcaecati, harum sit repellat nam. Eius, pariatur. Fugit quos ea beatae similique?</p>
+                    <div class = "d-flex">
+                        <strong class = "pr-2">Supplier</strong>
+                        <span><a href = "#" class = "text-gray">Lenovo</a></span>
+                    </div>
+                    <div class = "d-flex pt-3 justify-content-between">
+                        <span class = "text-gray">23 Oct, 2020</span>
+                        <span>
+                            <button class = "bg-red text-white font-weight-bold rounded border-0">Give a call</button>
+                            <span class = "text-red font-weight-bold">$400</span>
+                        </span>
+                    </div>
+                </div>
+            </article>  
+            <article class="d-grid results pt-3 border-bottom border-white pb-3">
+                <a href = "#"><img src="assets/images/mic.jpg" alt="Microphones" /></a>
+                <div class="d-flex flex-column">
+                    <h6 class="h6"><a href = "#" class = "text-gray">Professional microphone</a></h6>
+                    <span class = "text-red font-weight-bold">$50</span>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt a qui maiores fugit quas, distinctio rem dicta voluptatem obcaecati, harum sit repellat nam. Eius, pariatur. Fugit quos ea beatae similique?</p>
+                    <div class = "d-flex">
+                        <strong class = "pr-2">Supplier</strong>
+                        <span><a href = "#" class = "text-gray">Samsung</a></span>
+                    </div>
+                    <div class = "d-flex pt-3 justify-content-between">
+                        <span class = "text-gray">23 Oct, 2020</span>
+                        <span>
+                            <button class = "bg-red text-white font-weight-bold rounded border-0">Give a call</button>
+                            <span class = "text-red font-weight-bold">$50</span>
+                        </span>
+                    </div>
+                </div>
+            </article>  
+            <article class="d-grid results pt-3 border-bottom border-white pb-3">
+                <a href = "#"><img src="assets/images/printer.jpg" alt="HP printer" /></a>
+                <div class="d-flex flex-column">
+                    <h6 class="h6"><a href = "#" class = "text-gray">HP Printer Laserjet</a></h6>
+                    <span class = "text-red font-weight-bold">$400</span>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt a qui maiores fugit quas, distinctio rem dicta voluptatem obcaecati, harum sit repellat nam. Eius, pariatur. Fugit quos ea beatae similique?</p>
+                    <div class = "d-flex">
+                        <strong class = "pr-2">Supplier</strong>
+                        <span><a href = "#" class = "text-gray">Hewlet Packard</a></span>
+                    </div>
+                    <div class = "d-flex pt-3 justify-content-between">
+                        <span class = "text-gray">23 Oct, 2020</span>
+                        <span>
+                            <button class = "bg-red text-white font-weight-bold rounded border-0">Give a call</button>
+                            <span class = "text-red font-weight-bold">$400</span>
+                        </span>
+                    </div>
+                </div>
+            </article>  
+            <footer class = "d-flex">
+                <a href = "#" class = "text-red p-2 border border-white">
+                    1
+                </a>
+                <a href = "#" class = "text-red p-2 border border-white">
+                    2
+                </a>
+                <a href = "#" class = "text-white p-2 border border-white bg-red">
+                    3
+                </a>
+                <a href = "#" class = "text-red p-2 border border-white">
+                    4
+                </a>
+                <a href = "#" class = "text-red p-2 border border-white">
+                    5
+                </a>
+            </footer>
+        </section>
     </main>
     <footer class = "footer d-flex flex-column flex-md-row mx-3 p-5">
         <div class = "d-flex col-12 col-md-3 flex-column footer-logo">
