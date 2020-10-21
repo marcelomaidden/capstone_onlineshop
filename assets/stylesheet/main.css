@@ -29,8 +29,19 @@
 }
 
 .prod-item,
-.department .info {
+.department .info,
+.info span {
   font-size: 80%;
+}
+
+.info span,
+.info button {
+  max-height: 100%;
+  height: 45px;
+}
+
+.purchase {
+  max-height: 45px;
 }
 
 .prod-item {
