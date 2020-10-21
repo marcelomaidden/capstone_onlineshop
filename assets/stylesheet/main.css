@@ -1,6 +1,12 @@
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .products {
     grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
