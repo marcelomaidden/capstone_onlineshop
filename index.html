@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/stylesheet/main.css" type = "text/css">
+    <link rel="stylesheet" href="assets/stylesheet/common.css" type = "text/css">
+    <title>Online shop for electronics</title>
+</head>
+<body>
+    <header class = "d-flex container-fluid">
+        <nav class = "container d-flex align-items-center">
+            <div class = "logo">
+                <a href = 'index.html' class = "text-white font-weight-bold">
+                    <img src="assets/images/header-logo.png" alt="logo" />
+                    ZATTIX
+                </a>
+            </div>
+            <div class = "col d-none d-md-flex home">
+                <a class="fa fa-home font-weight-bold text-no-decoration"><span class = "p-2">Home</span></a>
+            </div>
+            <div class = "col  d-none d-md-flex collections">
+                <a href="#collections" class = "fa fa-list-alt font-weight-bold"><span class = "p-2">Collections</span></a>
+            </div>
+            <div class = "col d-none d-md-flex purchase">
+                <a href="#" class = "fa fa-shopping-cart font-weight-bold"><span class = "p-2">Purchase list</span></a>
+            </div>
+            <div class="col d-none d-md-flex d-lg-block">
+                <button type="button" class = "bg-red text-white font-weight-bold rounded p-1">
+                    <span class = "post-ad">POST AND AD</span>
+                </button>
+            </div>
+            <div class="d-flex col profile align-items-center justify-content-end">
+                <a href="#" class = "font-weight-bold d-none d-lg-block">Luana Ribeiro de Souza Araujo</a>
+                <a href = "#"><img src="assets/images/profile.jpg" alt="Luana" class = "rounded-circle" /></a>
+            </div>
+        </nav>
+    </header>
+    <div class = "header-md d-none d-md-flex container-fluid flex-column bg-red text-md-center text-white gotham justify-content-end">
+        <h1 class = "h1 font-weight-bold">
+            ZATTIX
+        </h1>
+        <h6 class = "h6">
+            Buying and Selling Couldn't be simpler than this
+        </h6>
+        <div class = "d-md-flex justify-content-center pt-4">
+            <form action="search.html" class = "d-flex">
+                <div class="departments pr-0 mr-0">
+                    <select class="custom-select" name = "department">
+                      <option selected>All departments...</option>
+                      <option value="1">Dog food</option>
+                      <option value="2">Cat food</option>
+                      <option value="3">Fish food</option>
+                      <option value="3">Suplements</option>
+                      <option value="3">Clothes and accessories</option>
+                    </select>
+                </div>
+                <div class = "pr-0 mr-0 pl-0 ml-0 form-group row">
+                    <input type = "text" class = "form-control" name = "search_criteria" placeholder="What do you search for?" />
+                </div>
+                <div class = "pr-0 mr-0 pl-0 ml-0 form-group row">
+                    <input type = "text" name = "more-info" class = "form-control" placeholder="" />
+                </div>
+                <div class = "pr-0 mr-0 pl-0 ml-2 form-group row ">
+                    <button type="submit" class="px-3 rounded bg-black text-white font-weight-bold">Search</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    <div class = "d-flex container-fluid d-md-none bg-red pt-4">
+        <form action="search.html" class = "d-flex">
+            <div class="departments pr-0 mr-0">
+                <select class="custom-select" name = "department">
+                    <option selected>All departments...</option>
+                    <option value="1">Dog food</option>
+                    <option value="2">Cat food</option>
+                    <option value="3">Fish food</option>
+                    <option value="3">Suplements</option>
+                    <option value="3">Clothes and accessories</option>
+                </select>
+            </div>
+            <div class = "pr-0 mr-0 pl-0 ml-0 form-group row">
+                <input type = "text" class = "form-control" name = "search_criteria" placeholder="What do you search for?" />
+            </div>
+            <div class = "pr-0 mr-0 pl-0 ml-0 form-group row">
+                <input type = "text" name = "more-info" class = "form-control" placeholder="" />
+            </div>
+            <div class = "pr-0 mr-0 pl-0 ml-2 form-group row ">
+                <button type="submit" class="px-3 rounded bg-black text-white font-weight-bold">Search</button>
+            </div>
+        </form>            
+    </div>
+    <main class = "container-fluid">
+        <section class="hot-ads d-flex flex-column container py-5">
+            <h4 class="col-12 text-gray h6 font-weight-bold .helvetica">HOT ADS</h4>
+            <div class="d-flex flex-column flex-md-row">
+                <div class="carousel slide col-12 col-md-4" data-ride="carousel">
+                    <div class="position-relative carousel-inner">
+                      <div class="carousel-item pl-5 active">
+                        <img class="d-block" src="https://www.allaboutdogfood.co.uk/images/Products1/160x160/wainwrights-dry-adult-grain-free-1.jpg" 
+                        alt="First slide">
+                      </div>
+                      <div class="carousel-item pl-5">
+                        <img class="d-block" src="https://www.allaboutdogfood.co.uk/images/Products1/160x160/csj-rocket-fuel-1.jpg" alt="Second slide">
+                      </div>
+                      <div class="carousel-item pl-5">
+                        <img class="d-block" src="https://www.allaboutdogfood.co.uk/images/Products1/160x160/devoted-puppy-1.jpg" alt="Third slide">
+                      </div>
+                      <div class="position-absolute subnav">
+                        <a href = "#"><span class="carousel-control-prev-icon bg-black" aria-hidden="true"></span></a>
+                        <a href = "#"><span class="carousel-control-next-icon bg-black" aria-hidden="true"></span></a>  
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev bg-light-gray" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next bg-light-gray" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-8 d-flex flex-column info">
+                    <h2 class="text-red">Pet foods</h2>
+                    <p class = "text-gray">
+                        High-quality pet foods with lower market price
+                    </p>
+                    <p class = "text-gray"><span class = "font-weight-bold">By</span> Purina</p>
+                    <div class="col-6 d-flex purchase">
+                        <span class = "bg-red border-right mr-0 d-flex align-items-center p-2 font-weight-bold gotham rounded-left text-white">$450</span>
+                        <div class = "col p-0">
+                            <button type = "button" class = "p-2 bg-red rounded-right ml-0 text-white border-0">
+                                <i class = "fa fa-shopping-cart font-weight-bold d-block"></i>
+                                <span class = "px-2 font-weight-bold gotham text-white">Purchase</span>
+                            </button>
+                        </div>
+                    </div>                    
+                </div>    
+            </div>
+        </section>
+        <section class="d-flex flex-column bg-light-gray p-2">
+            <a id="collections"></a>
+            <div class = "d-flex department align-items-center">
+                <i class="fa fa-laptop p-3"></i>
+                <span class = "font-weight-bold p-3">Pet foods</span>
+                <span class = "p-3 text-gray info">(<a href = "#" class = "text-gray">Dog</a>,
+                     <a href = "#" class = "text-gray">fish</a>, 
+                     <a href = "#" class = "text-gray">cat</a>)
+                </span>
+            </div>
+            <section class="d-grid products">
+                <article class="prod-item d-grid bg-white my-3 p-3 align-items-center text-align-center">
+                    <a href = "#">
+                        <img src="https://www.allaboutdogfood.co.uk/images/Products1/160x160/europa-80-20-grain-free-potato-free-1.jpg" 
+                        class = "mx-auto" alt="cat food"></a>              
+                    <h6 class = "text-gray font-weight-bold">
+                        Europa Puppy is a 100% natural and grain-free food specially balanced,
+                         like no other food on the market, by 60% meat/fish and 40% vegetables, 
+                         fruits and herbs...
+                    </h6>
+                    <p>Europa cat food</p>
+                    <div class = "d-flex justify-content-between purchase-box col-12 position-relative">
+                        <button type = "button" class = "border-0 px-3"><i class="fa fa-plus font-weight-normal text-gray"></i></button>
+                        <span class = "bg-red p-2 mr-0 font-weight-bold gotham rounded-left text-white">$10</span>
+                        <div class="more-details position-absolute">
+                            <ul class="list-unstyled text-white">
+                                <li class = "p-3"><a href = "#" class = "text-white">Add to collection</a></li>
+                                <li class = "p-3"><a href = "#" class = "text-white">Send a message</a></li>
+                                <li class = "p-3"><a href = "#" class = "text-white">More details</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+                <article class="prod-item d-grid bg-white my-3 p-3 align-items-center text-align-center">
+                    <a href = "#"><img src="https://www.allaboutdogfood.co.uk/images/Products1/160x160/virbac-veterinary-hpm-adult-neutered-dog-large-and-medium-1.jpg" 
+                        class = "mx-auto" alt="dog food"></a>
+                    <h6 class = "text-gray font-weight-bold">
+                        A natural complete food for adult dogs made from easily digestible protein, vegetables, beneficial herbs and slow release energy from brown rice..." 
+                    </h6>
+                    <p>Natural dog food</p>
+                    <div class = "d-flex justify-content-between col-12 position-relative purchase-box">
+                        <button type = "button" class = "border-0 px-3"><i class="fa fa-plus font-weight-normal text-gray"></i></button>
+                        <span class = "bg-red p-2 mr-0 font-weight-bold gotham rounded-left text-white">$20</span>
+                        <div class="more-details position-absolute">
+                            <ul class="list-unstyled text-white">
+                                <li class = "p-3"><a href = "#" class = "text-white">Add to collection</a></li>
+                                <li class = "p-3"><a href = "#" class = "text-white">Send a message</a></li>
+                                <li class = "p-3"><a href = "#" class = "text-white">More details</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+                <article class="prod-item d-grid bg-white my-3 p-3 align-items-center text-align-center">
+                    <a href = "#"><img src="https://www.allaboutdogfood.co.uk/images/Products1/160x160/wainwrights-dry-adult-grain-free-1.jpg" class = "mx-auto"  alt="apple-laptop"></a>               
+                    <h6 class = "text-gray font-weight-bold">
+                        A natural complete food for adult dogs made from easily digestible protein, vegetables, beneficial herbs and slow release energy from brown rice..." 
+                    </h6>
+                    <p>Grain free dog food</p>
+                    <div class = "d-flex justify-content-between col-12 position-relative purchase-box">
+                        <button type = "button" class = "border-0 px-3"><i class="fa fa-plus font-weight-normal text-gray"></i></button>
+                        <span class = "bg-red p-2 mr-0 font-weight-bold gotham rounded-left text-white">$450</span>
+                        <div class="more-details position-absolute">
+                            <ul class="list-unstyled text-white">
+                                <li class = "p-3"><a href = "#" class = "text-white">Add to collection</a></li>
+                                <li class = "p-3"><a href = "#" class = "text-white">Send a message</a></li>
+                                <li class = "p-3"><a href = "#" class = "text-white">More details</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+                <article class="prod-item d-grid bg-white my-3 p-3 align-items-center text-align-center">
+                    <a href = "#"><img src="	https://www.allaboutdogfood.co.uk/images/Products1/160x160/butchers-traditional-recipes-1.jpg" class = "mx-auto" alt="apple-laptop"></a>              
+                    <h6 class = "text-gray font-weight-bold">
+                        Some dogs have a tendency to itch and scratch more than others. And they may experience more dandruff...
+                    </h6>
+                    <p>Supplements</p>
+                    <div class = "d-flex justify-content-between col-12 position-relative purchase-box">
+                        <button type = "button" class = "border-0 px-3"><i class="fa fa-plus font-weight-normal text-gray"></i></button>
+                        <span class = "bg-red p-2 mr-0 font-weight-bold gotham rounded-left text-white">$450</span>
+                        <div class="more-details position-absolute">
+                            <ul class="list-unstyled text-white">
+                                <li class = "p-3"><a href = "#" class = "text-white">Add to collection</a></li>
+                                <li class = "p-3"><a href = "#" class = "text-white">Send a message</a></li>
+                                <li class = "p-3"><a href = "#" class = "text-white">More details</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </section>            
+            <div class = "d-flex department align-items-center">
+                <i class="fa fa-clock-o p-3"></i>
+                <span class = "font-weight-bold p-3">Clothes</span>
+                <span class = "p-3 text-gray info">
+                    (<a href = "#" class = "text-gray">Clothes</a>, 
+                    <a href = "#" class = "text-gray">accessories</a>)</span>
+            </div>
+            <section class="d-grid products">
+                <article class="prod-item d-grid bg-white my-3 p-3 align-items-center text-align-center">
+                    <a href = "#">
+                        <img src="https://media.consumeraffairs.com/files/cache/news/dog-food-bowl_large.jpg" 
+                        class = "mx-auto" alt="dog bowl"></a>                   
+                    <h6 class = "text-gray font-weight-bold gotham">
+                        Large dog bowl created with a hard and resistant material.
+                        All bowls come in different colors (green, red, yellow, blue and black)... 
+                    </h6>
+                    <p>Bowls</p>
+                    <div class = "d-flex justify-content-between col-12 position-relative purchase-box">
+                        <button type = "button" class = "border-0 px-3"><i class="fa fa-plus font-weight-normal text-gray"></i></button>
+                        <span class = "bg-red p-2 mr-0 font-weight-bold gotham rounded-left text-white">$30</span>
+                        <div class="more-details position-absolute">
+                            <ul class="list-unstyled text-white">
+                                <li class = "p-3"><a href = "#" class = "text-white">Add to collection</a></li>
+                                <li class = "p-3"><a href = "#" class = "text-white">Send a message</a></li>
+                                <li class = "p-3"><a href = "#" class = "text-white">More details</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+                <article class="prod-item d-grid bg-white my-3 p-3 align-items-center text-align-center">
+                    <a href = "#">
+                        <img src="https://www.royalenfieldshop.co.uk/471-large_default/royal-enfield-leather-string-with-dog-hook-brown.jpg" 
+                        class = "mx-auto" alt="dog string"></a>            
+                    <h6 class = "text-gray font-weight-bold">
+                        An absolute essential of any rider, this wallet hook string is a must have to ensure that you never worry about your wallet...
+                    </h6>
+                    <p>Microphones</p>
+                    <div class = "d-flex justify-content-between col-12 position-relative purchase-box">
+                        <button type = "button" class = "border-0 px-3"><i class="fa fa-plus font-weight-normal text-gray"></i></button>
+                        <span class = "bg-red p-2 mr-0 font-weight-bold gotham rounded-left text-white">$15</span>
+                        <div class="more-details position-absolute">
+                            <ul class="list-unstyled text-white">
+                                <li class = "p-3"><a href = "#" class = "text-white">Add to collection</a></li>
+                                <li class = "p-3"><a href = "#" class = "text-white">Send a message</a></li>
+                                <li class = "p-3"><a href = "#" class = "text-white">More details</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+                <article class="prod-item d-grid bg-white my-3 p-3 align-items-center text-align-center">
+                    <a href = "#"><img src="https://images-na.ssl-images-amazon.com/images/I/61iYoKzat5L._AC_SY679_.jpg" 
+                        class = "mx-auto" alt="dog clothes">
+                    </a>              
+                    <h6 class = "text-gray font-weight-bold">
+                        Why should humans have all the fun this Christmas? Introducing Tipsy Elves' Ugly Christmas Sweaters for Dogs!...
+                    </h6>
+                    <p>Dog clothes</p>
+                    <div class = "d-flex justify-content-between col-12 position-relative purchase-box">
+                        <button type = "button" class = "border-0 px-3"><i class="fa fa-plus font-weight-normal text-gray"></i></button>
+                        <span class = "bg-red p-2 mr-0 font-weight-bold gotham rounded-left text-white">$50</span>
+                        <div class="more-details position-absolute">
+                            <ul class="list-unstyled text-white">
+                                <li class = "p-3"><a href = "#" class = "text-white">Add to collection</a></li>
+                                <li class = "p-3"><a href = "#" class = "text-white">Send a message</a></li>
+                                <li class = "p-3"><a href = "#" class = "text-white">More details</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+                <article class="prod-item d-grid bg-white my-3 p-3 align-items-center text-align-center">
+                    <a href = "#"><img src="https://cdn.shopify.com/s/files/1/0885/6770/products/ball-with-string.jpg" 
+                        class = "mx-auto" alt="dog toys">
+                    </a>
+                    <h6 class = "text-gray font-weight-bold">
+                        JULIUS-K9 IDC NATURAL RUBBER BALL WITH STRING IN ALL SIZES! - ORIGINAL DOG TOY!...
+                    </h6>
+                    <p>Pet Toys</p>
+                    <div class = "d-flex justify-content-between col-12 position-relative purchase-box">
+                        <button type = "button" class = "border-0 px-3"><i class="fa fa-plus font-weight-normal text-gray"></i></button>
+                        <span class = "bg-red p-2 mr-0 font-weight-bold gotham rounded-left text-white">$450</span>
+                        <div class="more-details position-absolute">
+                            <ul class="list-unstyled text-white">
+                                <li class = "p-3"><a href = "#" class = "text-white">Add to collection</a></li>
+                                <li class = "p-3"><a href = "#" class = "text-white">Send a message</a></li>
+                                <li class = "p-3"><a href = "#" class = "text-white">More details</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </section>            
+        </section>
+    </main>
+    <footer class = "footer container-fluid d-flex flex-column flex-md-row p-2">
+        <div class = "d-flex col-12 col-md-2 col-lg-3 flex-column footer-logo">
+            <div class = "d-flex flex-column flex-lg-row logo p-3">
+                <img src = "assets/images/logo.png" class = "pr-2" alt = "logo" />
+                <a href = "index.html" class = "gotham font-weight-bold text-gray">ZATTIX</a>
+            </div>            
+            <div class = "text-justify company-info">
+                ZATTIX is a pet product company that aims to make your animals happy, strong, and comfortable. We have all you animal needs to have a good quality of life.
+            </div>
+        </div>
+        <div class="d-flex flex-column col-12 col-md-2 col-lg-3 pt-2">
+            <h6 class = "text-red font-weight-bold border-bottom">Categories</h6>
+            <ul class="list-unstyled">
+                <li><a href = "#" class = "text-gray">Dog food</a></li>
+                <li><a href = "#" class = "text-gray">Cat food</a></li>
+                <li><a href = "#" class = "text-gray">Fish food</a></li>
+                <li><a href = "#" class = "text-gray">Suplements</a></li>
+                <li><a href = "#" class = "text-gray">Clothes and accessories</a></li>
+            </ul>
+        </div>
+        <div class="d-flex flex-column col-12 col-md-2 col-lg-3 pt-2">
+            <h6 class = "text-red font-weight-bold border-bottom">Navigation</h6>
+            <ul class="list-unstyled">
+                <li><a href = "#" class = "text-gray">Home</a></li>
+                <li><a href = "#collections" class = "text-gray">Collections</a></li>
+                <li><a href = "#" class = "text-gray">Purchase list</a></li>
+                <li><a href = "#" class = "text-gray">Sig-in</a></li>
+                <li><a href = "#" class = "text-gray">Sign-up</a></li>
+                <li><a href = "#" class = "text-gray">Terms and conditions</a></li>
+            </ul>
+        </div>
+        <div class="d-flex col-12 col-md-6 col-lg-3 pt-2 mx-0 px-0">
+            <ul class="list-unstyled text-right pr-2">
+                <li class = "text-uppercase text-red font-weight-bold p-2 m-3">Country</li>
+                <li class = "text-uppercase text-red font-weight-bold p-2 m-3">Language</li>
+                <li class = "text-uppercase text-red font-weight-bold p-2 m-3">Currency</li>
+            </ul>
+            <ul class = "list-unstyled">
+                <li class = "p-2 m-3 border">Brazil</li>
+                <li class = "p-2 m-3 border">English</li>
+                <li class = "p-2 m-3 border">Real</li>
+            </ul>
+        </div>
+    </footer>
+    <div class="copyright container d-flex justify-content-between">
+        <h6 class = "text-gray col-5 col-md-6">Copyrights &copy; all rights reserved</h6>
+        <div class="social text-gray col-7 col-md-6 text-right">
+            <i class="fa fa-facebook pr-2"></i>
+            <i class="fa fa-instagram pr-2"></i>
+            <i class="fa fa-youtube pr-2"></i>
+            <i class="fa fa-twitter pr-2"></i>
+            <i class="fa fa-linkedin pr-2"></i>
+        </div>
+    
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>

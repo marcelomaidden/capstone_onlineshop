@@ -1,0 +1,22 @@
+.main {
+  grid-template-columns: 1fr 5fr;
+}
+
+.results {
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+.results img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .results {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .results img {
+    width: 70%;
+  }
+}
