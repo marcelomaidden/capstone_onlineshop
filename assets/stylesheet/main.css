@@ -6,8 +6,12 @@
 
 @media (max-width: 767px) {
   .products {
-    grid-template-columns: repeat(2, 48%);
+    grid-template-columns: 1fr;
     grid-gap: 1px;
+  }
+
+  .products a {
+    justify-self: center;
   }
 }
 

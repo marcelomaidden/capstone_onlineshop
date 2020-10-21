@@ -147,3 +147,8 @@ footer .logo img {
 .company-info {
   font-size: 80%;
 }
+
+.copyright,
+.copyright h6 {
+  font-size: 90%;
+}
