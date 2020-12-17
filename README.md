@@ -1,6 +1,6 @@
 # Capstone project - Electronics Online Shop
 
-# A responsive web design made as a solo project to finish the HTML and CSS Microverse program
+# A website made using HTML and CSS best practices, allowing users to see it on different screen sizes and devices.
 # Based on Mohammed Awad's design
 
 ## Video presentation
